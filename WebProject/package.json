@@ -1,0 +1,31 @@
+{
+  "name": "webproject",
+  "version": "1.0.0",
+  "description": "This is Assignment project continued into Assignment 2",
+  "scripts": {
+    "start": "node ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AMW310/3120Assignment1.git"
+  },
+  "author": "Alexander Waiganjo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AMW310/3120Assignment1/issues"
+  },
+  "homepage": "https://github.com/AMW310/3120Assignment1#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.1.0",
+    "bootstrap": "^5.3.8",
+    "connect": "^3.7.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "^5.1.0",
+    "http-errors": "~1.6.3",
+    "jquery": "^3.7.1",
+    "morgan": "~1.9.1",
+    "popper.js": "^1.16.1"
+  }
+}
