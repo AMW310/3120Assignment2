@@ -1,0 +1,30 @@
+<%- include ./partials/header.ejs%>
+<%- include ./partials/main_nav.ejs%>
+<main>
+    <img class="image" src="\Asset\images\wk301-198.png" alt="SideImage" width="300">
+    <div class = "form-format">
+        <h2><%= title %> directly with any questions or comments</h2>
+    <form action="mailto:email@email.com" ?subject=Signup Form method="post"
+    enctype="text/plain" name="form">
+    <p>
+        <label for="name">Name </label>
+        <input type="text" name="name" size="32" placeholder="Enter your Full Name">
+    </p>
+    <P>
+        <label for="email">Email</label>
+        <input name="email" type="email" size="40" placeholder="example@email.com">
+    </P>
+    <P>
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+    </P>
+    <P>
+        <label for="comments">Message</label><br>
+        <textarea name="comments" cols= "60" rows="8"></textarea>
+    </P>
+    <p><input type="submit" value="Submit Form"></p>
+    <p><input type="reset" value="Clear Form"></p>
+    </form>
+    </div>
+</main>
+<%- include ./partials/footer.ejs%>

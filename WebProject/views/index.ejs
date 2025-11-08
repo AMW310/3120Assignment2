@@ -1,6 +1,24 @@
 <%- include ./partials/header.ejs%>
 <%- include ./partials/main_nav.ejs%>
+<h1><%= title %> Page</h1>
+<main>
+        <img class="image" src="\Asset\images\wk301-198.png" alt="SideImage" width="300">
+
+        <div class="video">
+            <video width="400" height="200" controls poster="\Asset\images\wk301-22.png">
+            <source src="\Asset\images\IMG_3554.mp4" type="video/mp4">
+            Your browser does not support the video tag
+            </video>
+        </div>
+        
+        <div class = "vid-text">
+            <p>
+                Welcome to my portfolio. My name is Alexander Waiganjo, I'm a fourth year Game Dev student at Ontario Tech. 
+                Outside of my course, I enjoy learning other programming languages and practices in other fields, which has 
+                landed me in the Web and Script Programming course. I have a lot of projects I'm proud to showcase to you and 
+                plan on adding more in and out of game development.
+            </p>
+        </div>
+
+    </main>
 <%- include ./partials/footer.ejs%>
-<h1><%= title %></h1>
-<p>Welcome to <%= title %> page</p>
-    

@@ -6,3 +6,68 @@
 a {
   color: #00B7FF;
 }*/
+.element {
+    float: left;
+    margin-right: 20px;
+}
+
+.icon {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.projects {
+    font-size: 0; /*remove whitespace gap to fix formating issue, returned to 16 in text*/
+}
+
+.project-item {
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+    margin: 1%;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.clearfix::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.image {
+    width: 30%;
+    float: left;
+    margin-right: 20px; 
+}
+video {
+    display: block;
+    height: 30%;
+    width: 15%;
+    padding: 25px;
+    margin: 0 auto;
+    background-color: black;
+    border: 2px white solid;
+    box-shadow: 10px 10px 5px black;
+    /*vertical-align: top;*/
+}
+.vid-text {
+    text-align: center;
+    margin-left: 35%;
+}
+
+.form-format {
+    text-align: left;
+    margin-left: 35%;
+    padding-top: 5%;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    clear: both; /*Keep footer below floats, fix projects page issue*/
+}

@@ -1,20 +1,20 @@
 {
   "name": "webproject",
   "version": "1.0.0",
-  "description": "This is Assignment project continued into Assignment 2",
+  "description": "This is Assignment 2 for INFR3120",
   "scripts": {
     "start": "node ./server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AMW310/3120Assignment1.git"
+    "url": "git+https://github.com/AMW310/3120Assignment2.git"
   },
   "author": "Alexander Waiganjo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AMW310/3120Assignment1/issues"
+    "url": "https://github.com/AMW310/3120Assignment2/issues"
   },
-  "homepage": "https://github.com/AMW310/3120Assignment1#readme",
+  "homepage": "https://github.com/AMW310/3120Assignment2#readme",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.1.0",
     "bootstrap": "^5.3.8",
